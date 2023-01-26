@@ -1,0 +1,15 @@
+user1 : 
+    email: johnS@mail.com
+    password: johnsmith1234,
+
+user2 :
+    email: frankD@mail.com
+    password: frankdavis1234,
+
+user3 :
+    email: matildaL@mail.com
+    password: matildalogan1234,
+
+user3 :
+    email: thomasW@mail.com
+    password: thomaswilliams1234,

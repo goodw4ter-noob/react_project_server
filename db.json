@@ -1,0 +1,397 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "johnS@mail.com",
+      "password": "$2a$10$kmz.91kpOtB6ogNwtfSoru/fYdbTUR.LxpW6XdsbPw2Q5zpnpl2h2"
+    },
+    {
+      "id": 2,
+      "email": "frankD@mail.com",
+      "password": "$2a$10$bbpDSaB0PHpXcPi2YVYjKuiDwMXoODMp.BQdwWBce7NRghSTfZDC2"
+    },
+    {
+      "id": 3,
+      "email": "matildaL@mail.com",
+      "password": "$2a$10$yPdeX8scu5ZccXJjioSNBeQbMquKy6qoRf/9e6GonEksWZJkki.0m"
+    },
+    {
+      "id": 4,
+      "email": "thomasW@mail.com",
+      "password": "$2a$10$5OEBNVR61weMLBpfR6IIee2ZOSs3HzRGfACWwX/PBxO9o9FuZF22i"
+    }
+  ],
+  "usersData": [
+    {
+      "theme": "light",
+      "firstName": "Johny",
+      "lastName": "Smith",
+      "img": "https://ru-static.z-dn.net/files/d38/45833edf494ba8dc483de2773abc1bf3.png",
+      "city": "Montreal",
+      "country": "Belgium",
+      "flag": "../../../public/countriesPng/be.png",
+      "linkArr": [
+        "https://en.wikipedia.org/wiki/Canada",
+        "https://www.youtube.com/"
+      ],
+      "addInfo": "Age: 20\nOccupation: student",
+      "id": 1
+    },
+    {
+      "theme": "dark",
+      "firstName": "Frank",
+      "lastName": "Davis",
+      "img": "../../../public/avatars/fd.png",
+      "city": "New-York",
+      "country": "USA",
+      "flag": "../../../public/countries/usa.svg",
+      "linkArr": [
+        "https://en.wikipedia.org/wiki/United_States",
+        "https://www.youtube.com/"
+      ],
+      "addInfo": "Age: 35\nOccupation: software engineer",
+      "id": 2
+    },
+    {
+      "theme": "light",
+      "firstName": "Matilda",
+      "lastName": "Logan",
+      "img": "https://www.blog-o-krasote.ru/wp-content/uploads/2022/11/1634188506_55-mykaleidoscope-ru-p-rizhii-tsvet-volos-devushki-krasivaya-pric-60.jpg",
+      "city": "Sydney",
+      "country": "Australia",
+      "flag": "../../../public/countries/australia.svg",
+      "linkArr": [
+        "https://en.wikipedia.org/wiki/Australia",
+        "https://translate.yandex.ru/"
+      ],
+      "addInfo": "Age: 30\nOccupation: artist",
+      "id": 3
+    },
+    {
+      "theme": "dark",
+      "firstName": "Thomas",
+      "lastName": "Williams",
+      "img": "https://sportishka.com/uploads/posts/2021-12/1639423476_34-sportishka-com-p-krasivii-motokross-sport-krasivo-foto-36.jpg",
+      "city": "Liverpool",
+      "country": "United Kingdom",
+      "flag": "../../../public/countries/uk.svg",
+      "linkArr": [
+        "https://en.wikipedia.org/wiki/Great_Britain",
+        "https://www.udemy.com/"
+      ],
+      "addInfo": "Age: 27\nOccupation: businessman",
+      "id": 4
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "text": "Today was a great day! I visited the exhibition of a famous artist and managed to meet him in personal. What a great man indeed!",
+      "time": "16:25",
+      "userId": 1,
+      "userImg": "https://ru-static.z-dn.net/files/d38/45833edf494ba8dc483de2773abc1bf3.png",
+      "userName": "John Smith",
+      "postPhoto": "https://cdn.culture.ru/images/5e236c1a-5c96-5583-a742-8b6baac3e628",
+      "likes": [
+        3,
+        4,
+        2,
+        1
+      ],
+      "comments": [
+        {
+          "nickname": "Frank Davis",
+          "text": "awesome!"
+        },
+        {
+          "nickname": "Matilda Logan",
+          "text": "Wish I could visit the exhibition too"
+        },
+        {
+          "nickname": "Thomas Williams",
+          "text": "Great photo!"
+        }
+      ],
+      "date": 1674307332804
+    },
+    {
+      "id": 2,
+      "text": "First time in Moscow. Can anyone, please, tell me where the Shiraton Hotel is?",
+      "time": "16:50",
+      "userId": 2,
+      "userImg": "https://s0.smartresize.com/wallpaper/834/451/HD-wallpaper-christmas-holiday-new-year-seasonal-snowman-xmas.jpg",
+      "userName": "Frank Davis",
+      "postPhoto": "https://blog.thegreeks.com/wp-content/uploads/2020/04/shutterstock_1096932809-scaled.jpg",
+      "likes": [
+        1,
+        2
+      ],
+      "comments": [
+        {
+          "nickname": "John Smith",
+          "text": "Check the messages. Have just sent you the address"
+        }
+      ],
+      "date": 1674307761212
+    },
+    {
+      "id": 3,
+      "text": "Got my driving license! At last! :)",
+      "time": "18:00",
+      "userId": 3,
+      "userImg": "https://www.blog-o-krasote.ru/wp-content/uploads/2022/11/1634188506_55-mykaleidoscope-ru-p-rizhii-tsvet-volos-devushki-krasivaya-pric-60.jpg",
+      "userName": "Matilda Logan",
+      "postPhoto": "https://secret.travel/blogpics/2016.06-RUS.77-TaxiAnna/LR2016.06-RUS.77-TaxiAnna-2.jpg",
+      "likes": [
+        3
+      ],
+      "comments": [
+        {
+          "nickname": "Frank Davis",
+          "text": "Congratulations!"
+        },
+        {
+          "nickname": "Thomas Williams",
+          "text": "Good job!"
+        }
+      ],
+      "date": 1674307806042
+    },
+    {
+      "id": 4,
+      "text": "France lost :( Anyway Mbappe's play was great! Better luck next time Les Bleaus!",
+      "time": "20:00",
+      "userId": 4,
+      "userImg": "https://sportishka.com/uploads/posts/2021-12/1639423476_34-sportishka-com-p-krasivii-motokross-sport-krasivo-foto-36.jpg",
+      "userName": "Thomas Williams",
+      "postPhoto": "https://smartgambling.ru/storage/app/media/uploaded-files/xpress1sentabrsa.jpg",
+      "likes": [
+        3,
+        4,
+        1
+      ],
+      "comments": [
+        {
+          "nickname": "Frank Davis",
+          "text": "Nice try France, but Messi deserves it more!"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "Great play by both teams!"
+        }
+      ],
+      "date": 1674307823182
+    },
+    {
+      "id": 5,
+      "text": "10 days for Xmas! Have everybody bought presents already?",
+      "time": "13:22",
+      "userId": 2,
+      "userImg": "https://s0.smartresize.com/wallpaper/834/451/HD-wallpaper-christmas-holiday-new-year-seasonal-snowman-xmas.jpg",
+      "userName": "Frank Davis",
+      "postPhoto": "https://petrsu.ru/files/news_notice_event/2021/12/24/1640346635_holidaycandlechristmaslightingdecorchristmasornamentadventchristmasdecorationchristmasangelangelcandles4eventtraditionxmas1372914.jpg",
+      "likes": [
+        1
+      ],
+      "comments": [
+        {
+          "nickname": "Matilda Logan",
+          "text": "Presents are on the spot!"
+        },
+        {
+          "nickname": "Thomas Williams",
+          "text": "Like you even need to ask!"
+        }
+      ],
+      "date": 1674307838803
+    },
+    {
+      "id": 6,
+      "text": "Somebody is looking forward to celebrating New Year and I am looking forward my exams to be over...",
+      "time": "12:25",
+      "userId": 4,
+      "userImg": "https://sportishka.com/uploads/posts/2021-12/1639423476_34-sportishka-com-p-krasivii-motokross-sport-krasivo-foto-36.jpg",
+      "userName": "Thomas Williams",
+      "postPhoto": "https://pobedarf.ru/wp-content/uploads/2021/04/maths_chemistry_biology_physics_tutors-scaled.jpg",
+      "likes": [
+        1
+      ],
+      "comments": [
+        {
+          "nickname": "Frank Davis",
+          "text": "Good luck!"
+        },
+        {
+          "nickname": "Thomas Williams",
+          "text": "Thanks!"
+        }
+      ],
+      "date": 1674308613601
+    },
+    {
+      "id": 7,
+      "text": "The prices for PC cpu have skyrocketed this year again! Wish I hadn't postponed buying a new PC last summer...",
+      "time": "12:34",
+      "userId": 1,
+      "userImg": "https://ru-static.z-dn.net/files/d38/45833edf494ba8dc483de2773abc1bf3.png",
+      "userName": "John Smith",
+      "postPhoto": "https://i.imgur.com/6vy9019.png",
+      "likes": [
+        3
+      ],
+      "comments": [
+        {
+          "nickname": "Thomas Williams",
+          "text": "Well, you never know..."
+        }
+      ],
+      "date": 1674308631247
+    },
+    {
+      "id": 8,
+      "text": "Messi did it! True legend! Proud to live in one age with such a great player like he!",
+      "time": "11:10",
+      "userId": 2,
+      "userImg": "https://s0.smartresize.com/wallpaper/834/451/HD-wallpaper-christmas-holiday-new-year-seasonal-snowman-xmas.jpg",
+      "userName": "Frank Davis",
+      "postPhoto": "https://spoooort.ru/wp-content/uploads/2023/01/1674062880_Do-sih-por-ne-mogu-poverit-v-to-chto-my-chempiony-mira-Messi-cherez-mesyac-posle-pobedy-na-ChM-2022.jpg",
+      "likes": [
+        1,
+        4
+      ],
+      "comments": [
+        {
+          "nickname": "John Smith",
+          "text": "He deserves it!"
+        },
+        {
+          "nickname": "Thomas Williams",
+          "text": "Mbappe played 1 vs 21..."
+        }
+      ],
+      "date": 1674308644656
+    },
+    {
+      "id": 9,
+      "text": "FAANG have fired around 15% of their engineers! 2008 for IT is incoming?",
+      "time": "08:50",
+      "userId": 4,
+      "userImg": "https://sportishka.com/uploads/posts/2021-12/1639423476_34-sportishka-com-p-krasivii-motokross-sport-krasivo-foto-36.jpg",
+      "userName": "Thomas Williams",
+      "postPhoto": "https://picjumbo.com/wp-content/uploads/faang-stocks-2210x1473.jpg",
+      "likes": [
+        4,
+        1
+      ],
+      "comments": [
+        {
+          "nickname": "Frank Davis",
+          "text": "Well, another great news..."
+        },
+        {
+          "nickname": "Matilda Logan",
+          "text": "In Europe it is still ok"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "That's a pity"
+        }
+      ],
+      "date": 1674308655967
+    },
+    {
+      "id": 10,
+      "text": "Is it going to stop snowing in Moscow??? Have always thought that the Russian Winter is an exaggeration!",
+      "time": "17:40",
+      "userId": 2,
+      "userImg": "https://s0.smartresize.com/wallpaper/834/451/HD-wallpaper-christmas-holiday-new-year-seasonal-snowman-xmas.jpg",
+      "userName": "Frank Davis",
+      "postPhoto": "https://s.poembook.ru/theme/ef/af/6f/7606073d4a938525d485fafd21b41e817621af33.png",
+      "likes": [
+        2,
+        3,
+        1,
+        4
+      ],
+      "comments": [
+        {
+          "nickname": "Matilda Logan",
+          "text": "Russian winter is wonderful!"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "I have always thought that you like winter"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "asd"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "asd"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "asd"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "asd"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "qwe"
+        },
+        {
+          "nickname": "John Smith",
+          "text": "asd"
+        }
+      ],
+      "date": 1674308668244
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "to": "1",
+      "from": "3",
+      "text": "Hello, how are you doing?",
+      "time": "14:20"
+    },
+    {
+      "id": "2",
+      "to": "3",
+      "from": "1",
+      "text": "I am fine, thank you!",
+      "time": "14:25"
+    },
+    {
+      "id": "3",
+      "to": "2",
+      "from": "1",
+      "text": "Hi! Are you busy now?",
+      "time": "15:12"
+    },
+    {
+      "id": "4",
+      "to": "1",
+      "from": "2",
+      "text": "Hello! Well...I am , actually. Did anything happen?",
+      "time": "15:22"
+    },
+    {
+      "id": 5,
+      "to": 2,
+      "from": 1,
+      "text": "Hi!",
+      "time": "20:17"
+    },
+    {
+      "id": 6,
+      "to": 2,
+      "from": 1,
+      "text": "Hello!",
+      "time": "19:06"
+    }
+  ]
+}

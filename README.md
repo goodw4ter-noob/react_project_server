@@ -11,5 +11,7 @@ npm i
 npm run start
 ```
 
+После запуска сервер доступен на http://localhost:3000
+
 Изменять роуты доступа вы можете в файле routes.json
 Все роуты описаны в документации https://www.npmjs.com/package/json-server-auth в главе Guarded routes

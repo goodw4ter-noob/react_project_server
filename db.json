@@ -38,7 +38,7 @@
       "id": 1
     },
     {
-      "theme": "dark",
+      "theme": "light",
       "firstName": "Frank",
       "lastName": "Davis",
       "img": "../../../public/avatars/fd.png",
@@ -68,7 +68,7 @@
       "id": 3
     },
     {
-      "theme": "dark",
+      "theme": "light",
       "firstName": "Thomas",
       "lastName": "Williams",
       "img": "https://sportishka.com/uploads/posts/2021-12/1639423476_34-sportishka-com-p-krasivii-motokross-sport-krasivo-foto-36.jpg",

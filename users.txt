@@ -10,6 +10,6 @@ user3 :
     email: matildaL@mail.com
     password: matildalogan1234,
 
-user3 :
+user4 :
     email: thomasW@mail.com
     password: thomaswilliams1234,

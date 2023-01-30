@@ -27,9 +27,9 @@
       "firstName": "Johny",
       "lastName": "Smith",
       "img": "https://ru-static.z-dn.net/files/d38/45833edf494ba8dc483de2773abc1bf3.png",
-      "city": "Brussels",
-      "country": "Belgium",
-      "flag": "../../../public/countriesPng/be.png",
+      "city": "Montreal",
+      "country": "Canada",
+      "flag": "../../../public/countriesPng/ca.png",
       "linkArr": [
         "https://en.wikipedia.org/wiki/Canada",
         "https://www.youtube.com/"
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "theme": "dark",
+      "theme": "light",
       "firstName": "Frank",
       "lastName": "Davis",
       "img": "../../../public/avatars/fd.png",
@@ -81,7 +81,7 @@
       ]
     },
     {
-      "theme": "dark",
+      "theme": "light",
       "firstName": "Thomas",
       "lastName": "Williams",
       "img": "https://sportishka.com/uploads/posts/2021-12/1639423476_34-sportishka-com-p-krasivii-motokross-sport-krasivo-foto-36.jpg",
@@ -254,7 +254,8 @@
       "userName": "John Smith",
       "postPhoto": "https://i.imgur.com/6vy9019.png",
       "likes": [
-        3
+        3,
+        1
       ],
       "comments": [
         {
@@ -273,8 +274,8 @@
       "userName": "Frank Davis",
       "postPhoto": "https://spoooort.ru/wp-content/uploads/2023/01/1674062880_Do-sih-por-ne-mogu-poverit-v-to-chto-my-chempiony-mira-Messi-cherez-mesyac-posle-pobedy-na-ChM-2022.jpg",
       "likes": [
-        1,
-        4
+        4,
+        1
       ],
       "comments": [
         {
@@ -325,10 +326,10 @@
       "userName": "Frank Davis",
       "postPhoto": "https://s.poembook.ru/theme/ef/af/6f/7606073d4a938525d485fafd21b41e817621af33.png",
       "likes": [
-        2,
-        1,
+        3,
         4,
-        3
+        1,
+        2
       ],
       "comments": [
         {
@@ -409,14 +410,33 @@
           "to": 3,
           "from": 1,
           "text": "How are you doing?",
-          "time": "20:06"
+          "time": "20:06",
+          "imageUrl": "https://www.blog-o-krasote.ru/wp-content/uploads/2022/11/1634188506_55-mykaleidoscope-ru-p-rizhii-tsvet-volos-devushki-krasivaya-pric-60.jpg"
         },
         {
           "id": 2,
           "to": 1,
           "from": 3,
           "text": "Hi!",
-          "time": "20:17"
+          "time": "20:17",
+          "imageUrl": "https://www.blog-o-krasote.ru/wp-content/uploads/2022/11/1634188506_55-mykaleidoscope-ru-p-rizhii-tsvet-volos-devushki-krasivaya-pric-60.jpg"
+        },
+        {
+          "id": 1675095020881,
+          "to": 3,
+          "from": 1,
+          "text": "It's all going well!",
+          "time": "19:10",
+          "date": 1675095020881
+        },
+        {
+          "id": 1675095031767,
+          "to": 3,
+          "from": 1,
+          "text": "asd",
+          "time": "19:10",
+          "date": 1675095031767,
+          "imageUrl": ""
         }
       ]
     },
@@ -493,6 +513,23 @@
           "from": 4,
           "text": "asd",
           "time": "13:17"
+        },
+        {
+          "id": 1675103807302,
+          "to": 4,
+          "from": 3,
+          "text": "How are you doing?",
+          "time": "21:36",
+          "date": 1675103807302
+        },
+        {
+          "id": 1675103821694,
+          "to": 4,
+          "from": 3,
+          "text": "Personally, I am quite well!",
+          "time": "21:37",
+          "date": 1675103821694,
+          "imageUrl": ""
         }
       ]
     }
